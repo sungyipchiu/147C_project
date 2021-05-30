@@ -1,3 +1,5 @@
+close all
+
 A = [ 0 1 0 0; [-k_spring -b_damper k_spring b_damper]/m_car ; 0 0 0 1; [k_spring b_damper -k_spring-k_wheel -b_damper]/m_wheel];
 B = [ 0; 0; 0; k_wheel/m_wheel];
 %C = [1 0 0 0; 1 0 -1 0; A(2,:)];
