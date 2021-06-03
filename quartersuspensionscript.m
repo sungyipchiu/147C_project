@@ -10,3 +10,4 @@ rho_pd = 1;
 
 
 K = lqr(A,B,Q_pd,rho_pd);
+ckl
